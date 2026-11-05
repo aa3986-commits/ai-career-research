@@ -1,31 +1,52 @@
 ---
 layout: home
 hero:
-  name: AI Career Research
-  text: Explore new careers in artificial intelligence
-  tagline: Learn about responsibilities, required skills, and portfolio projects.
+  name: AI CAREER ATLAS
+  text: Where business meets artificial intelligence
+  tagline: Four career paths. One practical plan. A student-friendly guide to understanding the people building tomorrow's AI products.
   actions:
     - theme: brand
-      text: Explore Careers
-      link: /forward-deployed-engineer
+      text: Compare the Careers
+      link: /career-map
     - theme: alt
-      text: Research Resources
-      link: /resources
+      text: Build My Roadmap
+      link: /roadmap
 features:
-  - title: Forward Deployed Engineer
-    details: Builds solutions while working closely with customers.
-    link: /forward-deployed-engineer
-  - title: AI Engineer
-    details: Creates software using AI models.
-    link: /ai-engineer
-  - title: Machine Learning Engineer
-    details: Trains and deploys learning systems.
-    link: /machine-learning-engineer
-  - title: AI Product Manager
-    details: Plans useful and responsible AI products.
-    link: /ai-product-manager
+  - icon: 🧭
+    title: Explore roles
+    details: Compare AI jobs by what people actually do each day.
+    link: /career-map
+  - icon: 🛠️
+    title: Learn by building
+    details: Find small portfolio projects that can show useful skills.
+    link: /roadmap
+  - icon: 🔎
+    title: Check the evidence
+    details: Research real employer descriptions instead of guessing.
+    link: /resources
 ---
 
-## About the project
+## Why I chose this topic
 
-This student project compares emerging careers in the growing AI industry. The goal is to understand what people do in these jobs, which skills employers seek, and what students can build to prepare. Visit [Research Resources](/resources) to find actual job descriptions.
+I study **Business and Information Systems**. I want to understand how AI is changing jobs and how business knowledge can work together with technology.
+
+Instead of only listing AI job titles, this website asks three questions:
+
+1. **What problem does each professional solve?**
+2. **Which skills can a student start learning now?**
+3. **What project could prove those skills to an employer?**
+
+## Four paths to explore
+
+| Career | Main focus |
+| --- | --- |
+| [Forward Deployed Engineer](/forward-deployed-engineer) | Solve customer problems with software and AI |
+| [AI Engineer](/ai-engineer) | Build AI-powered applications |
+| [Machine Learning Engineer](/machine-learning-engineer) | Develop and operate learning models |
+| [AI Product Manager](/ai-product-manager) | Decide which AI products are useful and why |
+
+::: tip My main question
+Which AI career best combines technology, business thinking, and communication?
+:::
+
+[Explore the career comparison →](/career-map)
