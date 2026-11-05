@@ -1,41 +1,32 @@
-# AI Career Research
+# AI Career Atlas
 
-A student research website exploring emerging careers in the artificial intelligence industry. Built with [VitePress](https://vitepress.dev/) and published using GitHub Pages.
+**Where business meets artificial intelligence.**
+
+A redesigned VitePress research website exploring four AI careers through a Business and Information Systems student perspective.
 
 ## Live website
 
-**[Visit the AI Career Research website](https://aa3986-commits.github.io/ai-career-research/)**
+https://aa3986-commits.github.io/ai-career-research/
 
-> The link becomes live once GitHub Pages is enabled and the deployment workflow succeeds.
+## What's inside
 
-## Careers covered
-
-- Forward Deployed Engineer (FDE)
-- AI Engineer
-- Machine Learning Engineer
-- AI Product Manager
-
-Each career page explains the role, typical work, useful skills, and portfolio project ideas. The [Research Resources](https://aa3986-commits.github.io/ai-career-research/resources) page provides links for checking real job descriptions.
+- Original dark navy and teal website theme
+- Career comparison with real-world retail example
+- Forward Deployed Engineer, AI Engineer, Machine Learning Engineer, and AI Product Manager profiles
+- Student learning roadmap and portfolio case-study idea
+- Links for researching actual job descriptions
 
 ## Run locally
 
-Requires Node.js 20.19+ or 22.12+.
+Requires a supported version of Node.js.
 
 ```bash
 npm install
 npm run docs:dev
 ```
 
-To build:
-
-```bash
-npm run docs:build
-```
-
 ## Publishing
 
-The GitHub Actions workflow at `.github/workflows/deploy.yml` builds and deploys the website. In repository **Settings → Pages → Build and deployment**, select **GitHub Actions** as the source.
+The GitHub Actions workflow in `.github/workflows/deploy.yml` builds the site and publishes it to GitHub Pages.
 
-## Research note
-
-Job titles and responsibilities change quickly. These pages describe common patterns, not verified current job vacancies. Compare actual employer job descriptions and cite them in class.
+This is student research, not a listing of verified current job vacancies.
