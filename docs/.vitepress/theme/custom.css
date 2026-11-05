@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap');
+:root {
+ --vp-font-family-base: 'DM Sans', sans-serif;
+ --vp-font-family-mono: ui-monospace, SFMono-Regular, monospace;
+ --vp-c-brand-1: #008f88;
+ --vp-c-brand-2: #12b8ab;
+ --vp-c-brand-3: #45d8ca;
+ --vp-c-brand-soft: rgba(18,184,171,.13);
+ --vp-home-hero-name-color: transparent;
+ --vp-home-hero-name-background: linear-gradient(120deg,#007f79,#28b9a7,#82d9c7);
+ --vp-home-hero-image-background-image: radial-gradient(circle,#b5f2e7 0%,transparent 70%);
+}
+.dark {
+ --vp-c-bg: #0c1725;
+ --vp-c-bg-soft: #122337;
+ --vp-c-bg-alt: #102033;
+ --vp-c-brand-1: #50decf;
+ --vp-c-brand-2: #2bc3b5;
+ --vp-c-brand-3: #14a79e;
+ --vp-c-brand-soft: rgba(80,222,207,.13);
+ --vp-home-hero-name-background: linear-gradient(115deg,#a6fff0,#51decc,#3e98e5);
+}
+h1,h2,h3,.VPHomeHero .text,.VPHomeHero .name {font-family:'Space Grotesk',sans-serif}
+.VPHomeHero .name {letter-spacing:-.055em}
+.VPHomeHero .text {letter-spacing:-.045em}
+.VPFeature {border-radius:20px !important;transition:transform .2s,border-color .2s}
+.VPFeature:hover {transform:translateY(-4px);border-color:var(--vp-c-brand-2)}
+.VPButton {border-radius:12px !important}
+.vp-doc table {display:table;width:100%}
+.vp-doc tr:nth-child(2n) {background:var(--vp-c-bg-soft)}
+.vp-doc h2 {border-top:0;padding-top:18px}
