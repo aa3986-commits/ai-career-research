@@ -50,3 +50,10 @@ Which AI career best combines technology, business thinking, and communication?
 :::
 
 [Explore the career comparison →](/career-map)
+
+## November career research checkpoint
+
+- [Two original employer role cards](/employer-role-cards)
+- [Research checkpoint, open questions, and review log](/november-checkpoint)
+
+These public pages document research and proposed portfolio evidence. My private 250–350-word reflection is submitted separately in Canvas.
