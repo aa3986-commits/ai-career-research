@@ -4,7 +4,7 @@ export default defineConfig({
  description: 'A student guide to careers where AI meets business',
  base: '/ai-career-research/',
  cleanUrls: true,
- appearance: 'dark',
+ appearance: true,
  themeConfig: {
   logo: '✦',
   nav: [
