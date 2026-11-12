@@ -29,3 +29,21 @@ h1,h2,h3,.VPHomeHero .text,.VPHomeHero .name {font-family:'Space Grotesk',sans-s
 .vp-doc table {display:table;width:100%}
 .vp-doc tr:nth-child(2n) {background:var(--vp-c-bg-soft)}
 .vp-doc h2 {border-top:0;padding-top:18px}
+
+/* Peer-review improvements: responsive layouts and readable tables */
+.vp-doc { overflow-wrap: break-word; }
+.vp-doc img, .vp-doc video, .vp-doc iframe { max-width: 100%; height: auto; }
+.vp-doc pre { max-width: 100%; overflow-x: auto; }
+.vp-doc table { width: 100%; }
+.vp-doc .table-wrapper { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+@media (max-width: 640px) {
+ .VPHomeHero .name { letter-spacing: -.025em; }
+ .VPHomeHero .text { letter-spacing: -.025em; }
+ .VPFeature { border-radius: 14px !important; }
+ .vp-doc th, .vp-doc td { min-width: 115px; }
+ .vp-doc h2 { padding-top: 12px; }
+}
+@media (prefers-reduced-motion: reduce) {
+ .VPFeature { transition: none; }
+ .VPFeature:hover { transform: none; }
+}
